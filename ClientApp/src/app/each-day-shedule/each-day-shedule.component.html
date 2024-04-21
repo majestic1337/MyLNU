@@ -1,0 +1,19 @@
+
+
+
+<div class="row justify-content-center">
+    <ng-content select = ".title"></ng-content>
+    <ng-content select=".time"></ng-content>
+    
+        <div class="card mt-1" >
+            <div class="card-body p-2">      
+                <ng-content class = '.card-title'></ng-content>                                      
+                <div class="text-center">
+                    <ng-content select=".lesson"></ng-content>
+                    <ng-content select=".audit"></ng-content>  
+                    <ng-content select=".teacher"></ng-content>
+                </div>     
+            </div>
+        </div>
+     
+</div>

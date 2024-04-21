@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "YGglx4zRTpyHpp6avBGo7tYsDM/oPIe/QN7odDesW2A=",
+  "Source": "MyLNY",
+  "BasePath": "_content/MyLNY",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyLNY\\wwwroot",
+      "Source": "MyLNY",
+      "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
+      "BasePath": "_content/MyLNY",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\favicon.ico",
+      "SourceId": "MyLNY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
+      "BasePath": "_content/MyLNY",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

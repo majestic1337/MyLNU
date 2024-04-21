@@ -1,0 +1,125 @@
+.main-card .card{
+ min-height: 90px;
+}
+
+.border-left-danger {
+    border-left: 0.4rem solid #ff0512 !important;
+}
+
+.border-left-success {
+    border-left: 0.4rem solid #23fc5a !important;
+}
+
+.border-left-primary {
+    border-left: 0.4rem solid #83c9f2 !important;
+}
+
+.border-left-warning {
+    border-left: 0.4rem solid #fca308 !important;
+}
+
+.secondary-cards .card .card-header{
+    border-bottom: none;
+}
+
+@media (max-width: 575px) {
+    .secondary-cards .img-news {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .secondary-cards .news-disc {
+       margin-top: 30px;
+       font-size: 20px;
+       text-align: center;
+    }
+   
+}
+/* @media (max-width: 575px) {
+    .secondary-cards .img {
+        width: 250px;
+    }
+} */
+
+.secondary-cards img{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+}
+@media (min-width: 575px) {
+    
+    .news-disc {
+        display: flex;
+        align-items: center;
+    }
+   
+}
+/* @media (max-width: 575px) {
+    
+    .news-disc:not(:last-child){
+        border-bottom:0.5px solid grey ;
+    }
+} */
+
+.news-disc{
+   
+    font-size: 25px;
+    color:#1c7ab0;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    max-width: 400px; */
+}
+.button-more{
+    display: none;
+}
+@media (min-width: 576px) and (max-width: 1200px){
+    .button-more {
+        display: block;
+    }
+}
+
+.link-more{
+    display: none;
+    text-decoration: underline;
+    color:grey;
+}
+.link-more:hover{
+    color: #1c7ab0;
+}
+@media (max-width:576px) {
+    .link-more{
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+    .news-disc {
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 1200px) {
+    .news-subtitle {
+        display: none;
+    }
+}
+@media (max-width: 597px) {
+    .news-disc {
+        font-size: 17px;
+    }
+}
+
+.header-cards{
+    font-size: 25px;
+}
+
+.list-of-note ul li{
+    font-size: 20px;
+    color: black;
+    margin-left: 6px;
+}
+
+
+
+

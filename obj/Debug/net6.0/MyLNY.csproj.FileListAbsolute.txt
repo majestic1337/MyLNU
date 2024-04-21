@@ -1,0 +1,181 @@
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\spa.proxy.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.staticwebassets.runtime.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.exe
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.deps.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.runtimeconfig.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.dll
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.pdb
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\spa.proxy.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfo.cs
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.MyLNY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.build.MyLNY.props
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyLNY.props
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyLNY.props
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\scopedcss\bundle\MyLNY.styles.css
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CopyComplete
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.dll
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\refint\MyLNY.dll
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.pdb
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.genruntimeconfig.cache
+C:\Users\User\Desktop\programiring\frontend\angular\MyLNY\MyLNY\obj\Debug\net6.0\ref\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\appsettings.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.staticwebassets.runtime.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.exe
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.deps.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.runtimeconfig.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.AssemblyReference.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfoInputs.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfo.cs
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CoreCompileInputs.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cs
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.MyLNY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.build.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\scopedcss\bundle\MyLNY.styles.css
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CopyComplete
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\refint\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\MyLNY.genruntimeconfig.cache
+C:\Users\majestic\source\repos\MyLNY\MyLNY\obj\Debug\net6.0\ref\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\majestic\source\repos\MyLNY\MyLNY\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\appsettings.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.staticwebassets.runtime.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.exe
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.deps.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.runtimeconfig.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.csproj.AssemblyReference.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfoInputs.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfo.cs
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CoreCompileInputs.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cs
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.MyLNY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.build.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyLNY.props
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\scopedcss\bundle\MyLNY.styles.css
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CopyComplete
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\refint\MyLNY.dll
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\MyLNY.genruntimeconfig.cache
+C:\Users\majestic\source\repos\MyLNY2\MyLNY\obj\Debug\net6.0\ref\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\appsettings.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.staticwebassets.runtime.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.exe
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.deps.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.runtimeconfig.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.csproj.AssemblyReference.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfoInputs.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfo.cs
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CoreCompileInputs.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cs
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.MyLNY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.build.MyLNY.props
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyLNY.props
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyLNY.props
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\scopedcss\bundle\MyLNY.styles.css
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CopyComplete
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\refint\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\MyLNY.genruntimeconfig.cache
+C:\Users\majestic\source\repos\TestGit2\MyLNY2 – копія\MyLNY\obj\Debug\net6.0\ref\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\appsettings.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.staticwebassets.runtime.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.exe
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.deps.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.runtimeconfig.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.csproj.AssemblyReference.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\spa.proxy.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfoInputs.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.AssemblyInfo.cs
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CoreCompileInputs.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.RazorAssemblyInfo.cs
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.MyLNY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.build.MyLNY.props
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyLNY.props
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyLNY.props
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\scopedcss\bundle\MyLNY.styles.css
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.csproj.CopyComplete
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\refint\MyLNY.dll
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.pdb
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\MyLNY.genruntimeconfig.cache
+C:\Users\majestic\source\repos\TestGit3\MyLNY\obj\Debug\net6.0\ref\MyLNY.dll

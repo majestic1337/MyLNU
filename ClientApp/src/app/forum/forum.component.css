@@ -1,0 +1,152 @@
+.custom{
+    color: black;
+}
+
+.card-subtitle{
+    margin-top: 19px;
+    color: black;
+}
+.btn-links{
+    margin-top: 70px;
+}
+.btn-links button{
+    color: black;
+    border-radius: 50px;
+    background-color: #d4d6d9;
+    /* width: 73px; */
+    height: 27px;
+    font-size: 11px;
+    align-items: center;
+    border:none;
+    box-shadow: 0px 4px 8px #aca8a8;
+}
+
+@media (max-width:520px) {
+    .btn-links button{
+        font-size: 10px;
+    }
+}
+
+    
+
+.btn-links button i{
+    margin-left: 2px;
+}
+.button-add{
+    background-color: #043bc7;
+    color: white;
+    font-weight: 100;
+    border-radius: 20px;
+    
+}
+
+.card{
+    margin-right: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px #94959b;}
+
+
+.all-list{
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+   
+}
+
+.all-list ul{
+    
+    padding-bottom: 80px;
+}
+
+.all-list li {
+    border-bottom: 1.5px solid black;
+    border-radius:0px ;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.all-list li > div {
+    flex: 1;
+}
+
+.all-list-folower button{
+    color: black;
+    border-radius: 10px;
+    background-color: #d4d6d9;
+    width: 100px;
+    height: 37px;
+    font-size: 13px;   
+    border:none;
+    box-shadow: 0px 4px 8px #aca8a8;
+    
+
+}
+.all-list-folower {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    height: 100%; /* Установим высоту контейнера, чтобы выравнивание по вертикали сработало */
+}
+
+
+/* @media (min-width: 600px){
+.div.col-sm-4.d-none.d-sm-flex.user-name {
+    display: flex !important;
+}
+}
+
+.div.col-sm-4.d-none.d-sm-flex.user-name {
+    display: none !important;
+} */
+@media (max-width: 600px) {
+    .user-name {
+        display: none;
+    }
+}
+@media (max-width: 852px) {
+    .user-img {
+        display: none;
+    }
+}
+
+@media (min-width:601px) {
+    .name-of-event{
+        text-align: center !important;
+    }
+}
+
+/* .popular-events{
+    display: none;
+}
+@media (min-width:587px) {
+    .popular-events{
+        display: block;
+    }
+} */
+.time-button{
+    display: none;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1378px) {
+   .col-7 {
+        flex: 0 0 100%; /* Устанавливаем ширину первой колонки на 100% */
+        max-width: 100%; /* Устанавливаем максимальную ширину первой колонки на 100% */
+    }
+    
+    .col-5{
+        display: none; /* Скрываем вторую колонку */
+    }
+
+    .btn-links{
+        margin-top: 30px;
+    }
+
+    .time-button{
+        margin-top: 40px;
+        display: block;
+        float: right;
+        bottom: 0px;;
+    }
+}
+

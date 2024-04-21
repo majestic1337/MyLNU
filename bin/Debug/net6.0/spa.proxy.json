@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44450",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

@@ -1,0 +1,17 @@
+.header-content{
+    font-size:29px;
+    font-weight: 600;
+    color:black;
+}
+.date-content{
+    font-size:13px;
+}
+.description-content{
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.text-secondary{
+    margin-bottom: 3rem !important;
+}
+
