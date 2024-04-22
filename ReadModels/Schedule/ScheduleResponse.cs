@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLNY.ReadModels
+namespace MyLNU.ReadModels
 {
     internal class ScheduleResponse
     {

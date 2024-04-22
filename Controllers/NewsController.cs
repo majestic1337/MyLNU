@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using MyLNY.ReadModels;
+using MyLNU.ReadModels;
 using Newtonsoft.Json;
 
-namespace MyLNY.Controllers
+namespace MyLNU.Controllers
 {
     [ApiController]
     [Route("[controller]")]

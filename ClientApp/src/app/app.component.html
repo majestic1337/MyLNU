@@ -1,15 +1,27 @@
 <link
 href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
 rel="stylesheet">
-<div id="wrapper">
-    <app-nav-menu></app-nav-menu>
+<div id="wrapper" *ngIf="!isToggled && !gotoreg">
 
-    <div id="content-wrapper" class="d-flex flex-column">
-      <!-- Main Content -->
-      <div id="content">
-          <app-top-bar></app-top-bar>
-          <router-outlet></router-outlet> 
-      </div>
-    </div> 
-     
+    <div *ngIf="!displayNav">
+      <app-nav-menu style="position: sticky; top:0px; margin-bottom:auto"></app-nav-menu>
+    </div>
+      <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+          
+            <app-top-bar (GoToLoginComp)="handleToggle($event)" (HideNavBar)="HideBar($event)"></app-top-bar>
+          
+            <router-outlet></router-outlet> 
+        </div>
+      </div> 
+  
+
+  
 </div>  
+<div *ngIf="isToggled && !gotoreg">
+  <app-log (ShowMain)="handleToggle($event)" (ShowReg)="GoToRegPage($event)" ></app-log>
+</div>
+<div *ngIf="isToggled && gotoreg">
+  <app-reg (GoToLog)="GoToRegPage($event)"></app-reg>
+</div>

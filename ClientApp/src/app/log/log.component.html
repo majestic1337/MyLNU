@@ -1,0 +1,49 @@
+<body style="background-color: #4F709C !important;">
+
+    <div class="container main" style="background-color: #ffff;">
+        <button class="back disapired" style="border: none; background-color: #ffff"><i class="fa-solid fa-arrow-left"
+                (click)="GoBack()"></i></button>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 order-md-last lol">
+                <button class="backk" style="border: none; background-color: #ffff"><i class="fa-solid fa-arrow-left"
+                    (click)="GoBack()"></i></button>
+                <img src="/assets/photo_2024-04-14_18-22-07.jpg" alt="" class="img-fluid logo"
+                    style="object-fit: cover;">
+            </div>
+            <div class="col-md-6 col-sm-12 order-md-first form-text lol-kek">
+                <h5 class="text-center fw-bold title" style="color: black;">Sign in</h5>
+                <p class="text-center subtitle" style="color: black;">Hey, enter your details to login to your account</p>
+
+                <form action="" style="width: 80%;">
+                    <div class="input-group text-center mb-4">
+                        <label for="formEmail" class="input-group-text"><i class="fa-regular fa-envelope"></i></label>
+                        <input type="email" class="form-control" id="formEmail"
+                            placeholder="username@gmail.com">
+                    </div>
+
+
+                    <div class="input-group text-center">
+                        <label for="formEmail" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" class="form-control" id="formEmail" placeholder="password">
+                    </div>
+                    <p class="align-left reg" style="color: black;">Don`t have account yet?
+                        <a style="color: black;cursor:pointer;" class="fw-bold " (click)="GoToReg()">Register now!</a></p>
+
+                    <button class="btn signn" style="width: 100%">Sing in</button>
+                </form>
+
+                <p class="google-apple ">-- Or Sing in with --</p>
+                <div class="other-log">
+                    <button class="btn mr-2">
+                        <i class="fa-brands fa-google"></i>
+                        Google
+                    </button>
+                    <button class="btn fw-bold">
+                        <i class="fa-brands fa-apple "></i>
+                        Apple ID
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

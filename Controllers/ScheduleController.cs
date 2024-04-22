@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Text.Json;
-using MyLNY.ReadModels;
+using MyLNU.ReadModels;
 using Newtonsoft.Json;
 using System.Net.Http;
-using MyLNY.ReadModels.DateClass;
+using MyLNU.ReadModels.DateClass;
+using MyLNU.ReadModels.FilteredSchedule;
 
-namespace MyLNY.Controllers
+namespace MyLNU.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -39,7 +40,15 @@ namespace MyLNY.Controllers
 
                     var deserializeResponse = JsonConvert.DeserializeObject<ScheduleResponse>(responseText);
 
-                    return Ok(deserializeResponse);
+                    var schedule = deserializeResponse.scheduleList.Schedules;
+                    var scheduleModifier = new FilteredSchedule();
+                    scheduleModifier = scheduleModifier.SortByDate(schedule);
+
+                    var newSchedule = new NewSchedule(scheduleModifier);
+
+                    var completeSchedule = JsonConvert.SerializeObject(newSchedule);
+
+                    return Ok(completeSchedule);
                 }
                 else
                 {

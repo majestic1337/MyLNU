@@ -1,5 +1,5 @@
 .card{
-    background-color: #edcbbe;
+    background-color: #D7C3B6;
     border-radius: 20px;
     min-height:60px;
   }
@@ -10,7 +10,7 @@
   }
 
  .card{
-    width: 70%
+    width: 75%
   }
   @media (max-width: 690px) {
    .card{

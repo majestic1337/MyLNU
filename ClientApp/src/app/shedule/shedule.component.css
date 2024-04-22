@@ -203,3 +203,59 @@
     font-size: 12px
   }
 }
+
+.butn-group, .butn-faculti{
+  background-color: #254882;
+  border: none;
+  outline: none;
+  color: white;
+}
+.butn-group:disabled{
+background-color: #244680;
+}
+.buttons-fac-group .btn-primary:focus,.buttons-fac-group .butn-find:focus{
+  box-shadow: none;
+}
+
+.butn-find{
+  background-color: #D7C3B6;
+  border:none;
+  outline: none;
+  color: #024864;
+}
+.butn-find:active{
+  background-color:#ceb4a3;
+  color: #024864;
+}
+.week .empty{
+  min-height: 100px;
+  margin-bottom: 40px;
+}
+.week .card{
+  background-color: #D7C3B6;
+}
+/* .faculti-menu li:active, .group-menu li:active{
+  background-color: #254882;
+} */
+.group-menu li:hover{
+  background-color: #f0f0f0;
+}
+.faculti-menu, .group-menu{
+  padding-top:0px ;
+  padding-bottom: 0px;
+}
+.group-menu li:active{
+  background-color: #4e73df;
+  color: white !important;
+}
+
+@media (max-width: 400px) {
+  .buttons-fac-group button{
+    font-size: 12px;
+    width: 95px;
+  }
+  .buttons-find button{
+    width: 100% !important;
+  }
+  }
+ 

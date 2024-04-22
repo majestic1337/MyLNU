@@ -23,6 +23,10 @@ import { NewsComponent } from './news/news.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GroupService } from './services/fetch-groups.service';
 import { EachDaySheduleComponent } from './each-day-shedule/each-day-shedule.component';
+import { LibraryComponent } from './library/library.component';
+import { LogComponent } from './log/log.component';
+import { RegComponent } from './reg/reg.component';
+
 
 
 
@@ -45,6 +49,9 @@ import { EachDaySheduleComponent } from './each-day-shedule/each-day-shedule.com
     SmallTextPipe,
     NewsComponent,
     EachDaySheduleComponent,
+    LibraryComponent,
+    LogComponent,
+    RegComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -58,10 +65,12 @@ import { EachDaySheduleComponent } from './each-day-shedule/each-day-shedule.com
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
       { path: 'shedule', component: SheduleComponent},
       { path: 'forum', component: ForumComponent},
       { path: 'news', component: NewsComponent},
+      {path: 'library', component: LibraryComponent},
+      {path: 'log', component: LogComponent},
+      {path: 'reg', component: RegComponent},
       { path: '**', component: ErrorComponent },
     
     ]),

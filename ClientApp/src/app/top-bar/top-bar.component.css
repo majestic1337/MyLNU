@@ -120,3 +120,42 @@ img.rounded-circle{
     right: 0;
     border: 0.125rem solid #fff;
 } */
+
+.dropdown-menu {
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+
+
+
+
+@media (min-width: 576px){
+  
+ div.dropdown-menu.dropdown-menu-end.shadow.animated--grow-in.show {
+        width: auto !important;
+        right: 0;
+ }
+}
+
+div.dropdown-menu.dropdown-menu-end.shadow.animated--grow-in.show {
+    width: calc(100% - 1.5rem);
+    right: 0.75rem;
+} 
+
+.customdrop a.dropdown-item{
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #3a3b45;
+    text-align: inherit;
+    white-space: normal;
+    background-color: transparent;
+    border: 0;
+}
+.custom{
+    white-space: nowrap !important;
+}
