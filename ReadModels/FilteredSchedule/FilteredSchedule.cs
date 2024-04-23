@@ -92,51 +92,60 @@ namespace MyLNU.ReadModels.FilteredSchedule
 
             return filtered;
         }
-        public List<Schedule> Concatenate(List<Schedule> day) {
-
-            List<string> repeatedMondayValues = day
-                .GroupBy(obj => obj.LessonNumber) // Групуємо об'єкти за значенням поля
-                .Where(group => group.Count() > 1) // Відбираємо тільки групи з більше ніж одним об'єктом
-                .SelectMany(group => group.Select(obj => obj.LessonNumber)) // Об'єднуємо значення з кожної групи в один список
+        public List<Schedule> Concatenate(List<Schedule> day)
+        {
+            List<string> repeatedLessonNumbers = day
+                .GroupBy(obj => obj.LessonNumber)
+                .Where(group => group.Count() > 1)
+                .Select(group => group.Key)
                 .ToList();
-            List<string> uniqueElements = repeatedMondayValues.Distinct().ToList();
-            List<Schedule> concatenedSchedule = new List<Schedule>();
-            List<Schedule> copy  = day.ToList();
 
-            int index = 0;
-            bool first = true;
-            int startIndex = 0;
-
-            foreach (var elem in day)
+            if (repeatedLessonNumbers.Count > 1) // Якщо є дубльовані предмети з різними викладачами
             {
-                foreach (var lesson in uniqueElements)
+                foreach (var lessonNumber in repeatedLessonNumbers)
                 {
-                    if (lesson == elem.LessonNumber)
+                    var lessons = day.Where(lesson => lesson.LessonNumber == lessonNumber).ToList();
+
+                    string combinedTeachers = string.Join(" / ", lessons.Select(lesson => lesson.TeacherName).Distinct());
+                    string combinedRooms = string.Join(" / ", lessons.Select(lesson => lesson.Room).Distinct());
+
+                    foreach (var lesson in lessons)
                     {
-                        concatenedSchedule.Add(elem);
-                        if (first)
-                        {
-                            startIndex = index;
-                            first = false;
-                        }
-                        copy.Remove(elem);
+                        lesson.TeacherName = combinedTeachers;
+                        lesson.Room = combinedRooms;
                     }
                 }
-                index++;
+
+                // Після об'єднання даних, видаліть дубльовані записи, залишивши лише один з них
+                day = day.GroupBy(obj => new { obj.Date, obj.LessonNumber }).Select(group => group.First()).ToList();
             }
-        
-            Schedule newLesson = new Schedule();
-            newLesson = concatenedSchedule[0];
-            foreach (var elem in concatenedSchedule)
+            else if (repeatedLessonNumbers.Count == 1)
             {
-                newLesson.TeacherName += elem.TeacherName + " / ";
-                newLesson.Room += elem.Room + " / ";
+                var lessonNumber = repeatedLessonNumbers[0];
+                var lessons = day.Where(lesson => lesson.LessonNumber == lessonNumber).ToList();
+
+                var combinedLesson = lessons[0];
+
+                string combinedTeachers = string.Join(" / ", lessons.Select(lesson => lesson.TeacherName).Distinct());
+                string combinedRooms = string.Join(" / ", lessons.Select(lesson => lesson.Room).Distinct());
+
+                int startIndex = day.IndexOf(lessons.First());
+
+                // Видаляємо всі елементи списку lessons зі списку day
+                foreach (var lesson in lessons)
+                {
+                    day.Remove(lesson);
+                }
+
+                // Створюємо новий об'єкт з об'єднаними даними
+                combinedLesson.TeacherName = combinedTeachers;
+                combinedLesson.Room = combinedRooms;
+
+                // Вставляємо об'єднаний об'єкт на місце видалених елементів
+                day.Insert(startIndex, combinedLesson);
             }
-        
-            // Вставляємо елемент за новим індексом
-            copy.Insert(startIndex, newLesson);
-            return copy;
+
+            return day;
         }
     }
-
 }
