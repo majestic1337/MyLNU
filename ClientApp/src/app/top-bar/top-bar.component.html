@@ -2,7 +2,9 @@
 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
     <!-- Sidebar Toggle (Topbar) -->
-        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle" data-bs-toggle="collapse" data-bs-target="#sidebarToggle" aria-controls="sidebarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle" data-bs-toggle="collapse"
+         data-bs-target="#sidebarToggle" aria-controls="sidebarToggle"
+          aria-expanded="false" aria-label="Toggle navigation" (click)="Hide()">
             <i class="fa fa-bars"></i>
         </button>
 
@@ -58,8 +60,15 @@
         <div class="topbar-divider d-none d-sm-block"></div>
     
        <!-- Nav Item - User Information -->
-        <app-userinformation></app-userinformation>
-    
+        
+        <li class="nav-item dropdown no-arrow" (click)='ChangePage()'>
+            <a class="nav-link dropdown-toggle " href="#" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="me-2 d-none d-lg-inline text-gray-600 small">Альберт Ейнштейн</span>
+                <img class="img-profile rounded-circle"
+                    src="assets/avatarAlbert.svg">
+            </a>
+        </li>
     </ul>
   </nav>
 

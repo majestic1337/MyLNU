@@ -1,11 +1,11 @@
 import { Component, OnInit, SimpleChanges } from '@angular/core';
-import { AllFaculties } from '../faculties';
 import { FormControl, ReactiveFormsModule} from '@angular/forms';
 import { Observable, map, startWith } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { GroupService } from '../services/fetch-groups.service';
-import { Group } from '../interfaces/groups';
+
 import { OneGroup } from '../interfaces/group';
+import { Lesson} from '../interfaces/schedules';
 
 
 
@@ -23,20 +23,24 @@ export class SheduleComponent implements OnInit{
   currentInfo :string = 'Чисельник';
   facultiPicked!: OneGroup; 
   listOfGroups: any;
-  departments: Group[] = [];
+  departments: OneGroup[] = [];
   selectedGroup: string = ''
   showEmptyShedule: boolean = true;
   showFillShedule: boolean = false;
-  
+  lessonsTime: string[] = ['8:30-9:50','10:10-11:30','11:50-13:10','13.30-14:50','15:05-16:25','16:40-18:00'];
+  DayOfTheWeek:string[]=['Понеділок', 'Вівторок','Серееда','Четверг',"П'ятниця"]
+  shedule:Lesson[] =[];
   groups: any[] = [];
+  currentID:string = ''
+  
 
   constructor(private groupService : GroupService){
     // this.filterOptions = this.facultiNameControl.valueChanges.pipe(
     //   startWith(''),
     //   map(value => this._filter(value))
     // );
-      const group = new Group();
-      this.groups = [...group.department]
+      // const group = new Group();
+      // this.groups = [...group.department]
   }
 
   
@@ -48,9 +52,26 @@ export class SheduleComponent implements OnInit{
 
     // this.faculties = AllFaculties.faculties;
     // console.log(this.faculties)
+
+
 }
 
- 
+  groupSend(idnumber: string){
+    this.groupService.sendGroup(idnumber).subscribe(
+      (response =>{
+        console.log(response)
+      }) 
+    )
+  }
+
+//  getShedule():void{
+//   // if (!this.selectedGroup)
+//   this.groupService.sendData(this.currentID)
+//   .subscribe(response => {
+//     this.shedule = response.psrozklad_export.roz_items;
+//     console.log(this.shedule)
+//   })
+//  }
  
   // private _filter(value: string){
     
@@ -66,10 +87,13 @@ export class SheduleComponent implements OnInit{
     this.facultiPicked = option 
   }
 
-  selectGroup(group: string){
-    this.selectedGroup = group
-    console.log(this.selectedGroup)
+  selectGroup(group: string, id: string){
+    this.selectedGroup = group;
+    this.currentID = id;
+    console.log(this.selectedGroup, this.currentID)
+    
   }
+
 
 
  
@@ -85,7 +109,7 @@ export class SheduleComponent implements OnInit{
   FindCurrentShedule(){
     this.showEmptyShedule = false;
     this.showFillShedule = true;
-  
+    this.groupSend(this.currentID)
   }
 
   }

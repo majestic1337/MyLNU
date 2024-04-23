@@ -50,25 +50,25 @@
   <div class="container-xxl">
         <div class="row">
             <div class="col-sm-8 buttons-fac-group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-sm dropdown-toggle butn-faculti" data-bs-toggle="dropdown" aria-expanded="false">
                     Факультет
                 </button>
                 <ul class="dropdown-menu faculti-menu" aria-labelledby="btnGroupDrop1" style="height:205px; overflow-y: auto;">
-                    <li *ngFor="let group of groups " (click)="selectOption(group)" class="dropdown-item" [ngClass]="{'active': group === facultiPicked}">{{group.name | truncate: 40}}</li>                    
+                    <li *ngFor="let faculti of departments " (click)="selectOption(faculti)" class="dropdown-item" [ngClass]="{'active': faculti === facultiPicked}">{{faculti.name | truncate: 40}}</li>                    
                 </ul>
                 
-                <div class="btn-group dropend groups-item">
-                    <button id="btnGroupDrop2" type="button" class="btn btn-primary btn-sm ml-3 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" [disabled]="!facultiPicked">
+                <div class="btn-group groups-item">
+                    <button id="btnGroupDrop2" type="button" class="btn btn-primary btn-sm ml-3 dropdown-toggle butn-group" data-bs-toggle="dropdown" aria-expanded="false" [disabled]="!facultiPicked">
                         Группа
                     </button>
                     
                     <ul class="dropdown-menu group-menu " aria-labelledby="btnGroupDrop2" *ngIf="facultiPicked && facultiPicked.objects" style="height:195px; overflow-y: auto;">             
-                        <li  сlass="dropdown-item " *ngFor="let group of facultiPicked.objects" (click)="selectGroup(group.name)" [ngClass]="{'active': group.name === selectedGroup}">{{group.name}}</li>                                                    
+                        <li  сlass="dropdown-item " *ngFor="let group of facultiPicked.objects" (click)="selectGroup(group.name, group.ID)" [ngClass]="{'active': group.name === selectedGroup}">{{group.name}}</li>                                                    
                     </ul>
                 </div>
             </div>         
             <div class="text-sm-end text-start col-sm-4  buttons-fac-group buttons-find find">
-                <button class="btn btn-secondary btn-sm" [disabled]="!facultiPicked || selectedGroup == '' " (click)="FindCurrentShedule()">
+                <button class="btn btn-sm butn-find" [disabled]="!facultiPicked || selectedGroup == '' " (click)="FindCurrentShedule()">
                     Показати
                 </button>   
             </div>
@@ -76,10 +76,11 @@
         </div>
 
        
+       
 
         
-        <div class="week">
-            <div class="card mt-5 " *ngIf="showEmptyShedule">
+        <div class="week" style="color:#024864">
+            <div class="card mt-5 empty" *ngIf="showEmptyShedule">
                 <div class="card-body">
                     <div class="card-title week-day">
                         Понеділок
@@ -89,7 +90,7 @@
     
             <div class="after-click-info" *ngIf="showFillShedule">
                 <app-each-day-shedule>
-                    <h4 class="row justify-content-center title">Понеділок</h4>
+                    <h4 class="row justify-content-center title mt-4">Понеділок</h4>
                     <div class="mt-3 row justify-content-center time">8:30-9:50</div>
                     <p class="card-title mb-0">1</p>                    
                     <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
@@ -135,40 +136,57 @@
                     <p class = 'audit mb-1'>(ауд. 146)</p>   
                     <p class = 'teacher mb-1'>Викладач</p>
                 </app-each-day-shedule>
-            </div>   
+                <app-each-day-shedule>
+                    <h4 class="row justify-content-center title mt-4">Понеділок</h4>
+                </app-each-day-shedule>
+            </div>
+            
+            <!-- <div *ngFor="let day of DayOfTheWeek">
+                <div>
+                    {{ day }}
+                </div>
+                <div *ngFor="let time of lessonsTime">
+                    <div>
+                        {{ time }}
+                    </div>
+                    <app-each-day-shedule>
 
-            <div class="card mt-3" *ngIf="showEmptyShedule">
+                    </app-each-day-shedule>
+                </div>
+            </div> -->
+
+            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
                 <div class="card-body">
                     <div class="card-title week-day">
                         Вівторок
                     </div>
-                  <p>This is some text within a card body.</p>
+                  
                 </div>
             </div>
 
-            <div class="card mt-3" *ngIf="showEmptyShedule">
+            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
                 <div class="card-body">
                     <div class="card-title week-day">
                         Середа
                     </div>
-                  <p>This is some text within a card body.</p>
+                  
                 </div>
             </div>
-            <div class="card mt-3" *ngIf="showEmptyShedule">
+            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
                 <div class="card-body">
                     <div class="card-title week-day">
                         Четверг
                     </div>
-                  <p>This is some text within a card body.</p>
+                  
                 </div>
             </div>
 
-            <div class="card mt-3" *ngIf="showEmptyShedule">
+            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
                 <div class="card-body">
                     <div class="card-title week-day">
                         П'ятниця
                     </div>
-                  <p>This is some text within a card body.</p>
+                  
                 </div>
             </div>
         </div>

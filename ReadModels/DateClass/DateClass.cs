@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using System;
 
-namespace MyLNY.ReadModels.DateClass
+namespace MyLNU.ReadModels.DateClass
 {
     public class DateClass
     {

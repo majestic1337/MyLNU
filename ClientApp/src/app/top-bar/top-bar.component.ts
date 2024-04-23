@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-top-bar',
@@ -7,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class TopBarComponent {
 
+
+  @Output() GoToLoginComp = new EventEmitter<boolean>();
+  @Output() HideNavBar = new EventEmitter<boolean>()
+  isToggled = false;
+  removeNav = false
+
+  ChangePage(){
+    this.isToggled = !this.isToggled;
+    this.GoToLoginComp.emit(this.isToggled)
+  }
+
+  Hide(){
+    this.removeNav = !this.removeNav;
+    this.HideNavBar.emit(this.removeNav)
+  }
 }

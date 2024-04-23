@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: auto;
+}
+.main{
+    padding: 100px;
+    border-radius: 20px;
+   
+}
+.form-text h5{
+    font-size: 30px;
+    
+}
+.form-text .subtitle{
+    font-size: 15px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Чтобы контейнер занимал всю высоту родительского контейнера */
+}
+
+form input{
+    height: 50px;
+    border-color: #213555;
+    border-width: 0.1rem;
+    border-radius: 10px;
+}
+form label{
+    border-color: #213555;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 17px;
+}
+
+.other-log button{
+    font-size: 12px;
+    border: 0.5px solid grey;
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+    width: 100px;
+}
+
+.back{
+    position: relative;
+}
+.signn{
+    background-color: #213555;
+    color: #ffff;
+}
+.signn:active{
+    background-color: #1d2e4b;
+    color: #ffff;
+}
+.signn:focus{
+    box-shadow: none;
+}
+@media (max-width:1199px) {
+   .main{
+    padding: 50px 20px;
+    
+   }
+}
+.form-text .subtitle{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Стили для разрешений от 320px до 768px */
+@media (min-width: 767px) and (max-width: 992px) {
+   .logo{
+    margin-top: 40px;
+   }
+   
+}
+.backk{
+    display: none;
+}
+.disapired{
+    display: block;
+}
+.reg{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 13px; 
+}
+.signn{
+    margin-bottom: 1.5rem;
+}
+.google-apple{
+    margin-bottom: 1rem;
+}
+@media (max-width:991px) {
+    form input{
+        height: 40px;
+    }
+}
+@media (max-width:767px) {
+    .main {
+      
+    }
+    .lol {
+        text-align: center;
+    }
+    .logo {
+       /* height: 80%; */
+    }
+    .kek{
+        /* margin-top: 10px; */
+    }
+    form input{
+        height: 40px;
+
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+    .backk{
+        display: block;
+        position: absolute;
+        top: 34px;
+        left: 5px;
+    }
+    .form-text .subtitle{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .form-text h5{
+        font-size: 23px;
+       
+    }
+    img{
+        height: 300px;
+        width: 70%;
+    }
+    .disapired{
+        display: none;
+    }
+    .main{
+        padding: 15px 20px;
+    }
+   
+}
+@media (max-width:480px){
+    .reg{
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+        font-size: 11px;
+    }
+    .signn{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:430px) {
+    img{
+        width: auto;
+    }
+    .google-apple{
+        margin-bottom: 0.5rem;
+    }
+}
+.back{
+    font-size: 20px;
+}

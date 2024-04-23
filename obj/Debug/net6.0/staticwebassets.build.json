@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "YGglx4zRTpyHpp6avBGo7tYsDM/oPIe/QN7odDesW2A=",
-  "Source": "MyLNY",
-  "BasePath": "_content/MyLNY",
+  "Hash": "QYaDfgyv6hKUs6wB+httWSoY8h7ak70PGkldDEAcjVI=",
+  "Source": "MyLNU",
+  "BasePath": "_content/MyLNU",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "MyLNY\\wwwroot",
-      "Source": "MyLNY",
+      "Name": "MyLNU\\wwwroot",
+      "Source": "MyLNU",
       "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
-      "BasePath": "_content/MyLNY",
+      "BasePath": "_content/MyLNU",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
       "Identity": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\favicon.ico",
-      "SourceId": "MyLNY",
+      "SourceId": "MyLNU",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
-      "BasePath": "_content/MyLNY",
+      "BasePath": "_content/MyLNU",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
