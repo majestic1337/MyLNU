@@ -25,14 +25,17 @@ namespace MyLNU.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> GetSchedule()
+        public async Task<IActionResult> GetSchedule([FromQuery] string group)
         {
             try
             {
                 DateClass date = new DateClass(DateTime.Today, DateTime.Today);
+                System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+                string groupName = System.Web.HttpUtility.UrlDecode(group);
+                string encodedGroup = System.Web.HttpUtility.UrlEncode(group, System.Text.Encoding.GetEncoding("windows-1251"));
 
                 var client = _httpClientFactory.CreateClient();
-                HttpResponseMessage response = await client.GetAsync($"https://dekanat.lnu.edu.ua/cgi-bin/timetable_export.cgi?req_type=rozklad&req_mode=group&OBJ_ID=&OBJ_name=%CF%CC%C0-22%F1&dep_name=&ros_text=separated&begin_date={date.startDate}&end_date={date.endDate}&req_format=json&coding_mode=UTF8&bs=ok");
+                HttpResponseMessage response = await client.GetAsync($"https://dekanat.lnu.edu.ua/cgi-bin/timetable_export.cgi?req_type=rozklad&req_mode=group&OBJ_ID=&OBJ_name={encodedGroup}&dep_name=&ros_text=separated&begin_date={date.startDate}&end_date={date.endDate}&req_format=json&coding_mode=UTF8&bs=ok");
 
                 if (response.IsSuccessStatusCode)
                 {
