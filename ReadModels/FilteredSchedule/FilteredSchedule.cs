@@ -27,8 +27,18 @@ namespace MyLNU.ReadModels.FilteredSchedule
             foreach (var schedule in schedules)
             {
 
+                string toProcess = schedule.LessonDescription;
+                int index = toProcess.IndexOf("(");
+                if (index != -1)
+                {
+                    schedule.LessonName = toProcess.Substring(0, index-1);
+                    schedule.LessonDescription = toProcess.Substring(index); 
+                }
+                
+
                 if (schedule.Date == uniqueValues[0] && schedule.LessonDescription != "")
                 {
+
                     filtered.Monday.Add(schedule);
                     continue;
                 }
