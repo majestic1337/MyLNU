@@ -26,15 +26,21 @@ namespace MyLNU.ReadModels.FilteredSchedule
 
             foreach (var schedule in schedules)
             {
-
-                string toProcess = schedule.LessonDescription;
-                int index = toProcess.IndexOf("(");
-                if (index != -1)
+                if(schedule.LessonDescription != "ДВВС" && schedule.LessonDescription != "Фізкультура")
                 {
-                    schedule.LessonName = toProcess.Substring(0, index-1);
-                    schedule.LessonDescription = toProcess.Substring(index); 
+                    string toProcess = schedule.LessonDescription;
+                    int index = toProcess.IndexOf("(");
+                    if (index != -1)
+                    {
+                        schedule.LessonName = toProcess.Substring(0, index-1);
+                        schedule.LessonDescription = toProcess.Substring(index); 
+                    }
                 }
-                
+                else
+                {
+                    schedule.LessonName = schedule.LessonDescription;
+                    schedule.LessonDescription = " ";
+                }
 
                 if (schedule.Date == uniqueValues[0] && schedule.LessonDescription != "")
                 {

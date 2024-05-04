@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyLNU")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+299a0ecdc66dc4355755ff9fc6a1fd8145ba7033")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a17c5af1e4244e340522b10253d602ebe05c099")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyLNU")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyLNU")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
