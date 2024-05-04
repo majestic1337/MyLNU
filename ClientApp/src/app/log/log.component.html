@@ -14,22 +14,24 @@
                 <h5 class="text-center fw-bold title" style="color: black;">Sign in</h5>
                 <p class="text-center subtitle" style="color: black;">Hey, enter your details to login to your account</p>
 
-                <form action="" style="width: 80%;">
-                    <div class="input-group text-center mb-4">
+                <form action="" style="width: 80%;" (ngSubmit)="OnLogSubmit()" [formGroup]="reactiveForm">
+                    <div class="input-group text-center" [ngClass]="{more: reactiveForm.get('email')?.invalid && reactiveForm.get('email')?.touched}">
                         <label for="formEmail" class="input-group-text"><i class="fa-regular fa-envelope"></i></label>
                         <input type="email" class="form-control" id="formEmail"
-                            placeholder="username@gmail.com">
+                            placeholder="username@gmail.com" formControlName="email">
                     </div>
+                    <small *ngIf="reactiveForm.get('email')?.invalid && reactiveForm.get('email')?.touched" class="mb-4">*Invalid email</small>
 
-
-                    <div class="input-group text-center">
-                        <label for="formEmail" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
-                        <input type="password" class="form-control" id="formEmail" placeholder="password">
+                    <div class="input-group text-center" [ngClass]="{more: reactiveForm.get('password')?.invalid && reactiveForm.get('password')?.touched}">
+                        <label for="formPassword" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" class="form-control" id="formPassword" placeholder="password"
+                        formControlName="password">
                     </div>
+                    <small *ngIf="reactiveForm.get('password')?.invalid && reactiveForm.get('password')?.touched" class="mb-4">*Invalid password</small>
                     <p class="align-left reg" style="color: black;">Don`t have account yet?
                         <a style="color: black;cursor:pointer;" class="fw-bold " (click)="GoToReg()">Register now!</a></p>
 
-                    <button class="btn signn" style="width: 100%">Sing in</button>
+                    <button class="btn signn" type="submit" style="width: 100%">Sing in</button>
                 </form>
 
                 <p class="google-apple ">-- Or Sing in with --</p>

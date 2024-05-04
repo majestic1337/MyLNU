@@ -79,6 +79,7 @@ import { RegComponent } from './reg/reg.component';
   ],
   providers: [
     GroupService,
+    
   ],
   bootstrap: [AppComponent]
 })

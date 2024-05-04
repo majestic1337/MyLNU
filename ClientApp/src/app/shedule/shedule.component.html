@@ -1,51 +1,4 @@
-    <!-- <div class="container-xxl">
-        <div class="row">
-                <div class="col-3 text-start">
-                    <label for="toogle" class="fw-bold text-primary ml-1"> {{currentInfo}}</label>
-                    <label class="switch">   
-                        <input type="checkbox" id="toggle" (click)="SwitchInfo()">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <div class="col-5">
-                    <div class="example-full-width">
-                        <input type="text" placeholder="Вкажіть Факультет" class="mat-input" [formControl]="facultiNameControl" autocomplete="off" (input)="handleInputChange()">
-                        <div class="autocomplete-options" *ngIf="facultiNameControl.value && facultiNameControl.value != '' && facultiPicked">
-                        <div class="option" *ngFor="let option of filterOptions | async " (click)="selectOption(option)">{{ option }}</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 text-end">
-                    
-                    <select id="disabledSelect" class="form-select">
-                      <option>Disabled select</option>
-                    </select>
-                  </div>
-                
-        </div>        
-           
-    </div> -->
-<!--   
-<div class="container-fluid">
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Group</th>
-        </tr>
-        <tr *ngFor="let department of departments ">
-            
-            <td>
-                {{department.name}}
-            </td>
-            
-            <td *ngFor="let object of department.objects">
-                {{object.name}}
-            </td>
-
-        </tr>
-    </table>
-</div> -->
    
   <div class="container-xxl">
         <div class="row">
@@ -87,108 +40,149 @@
                     </div>                 
                 </div>
             </div>
-    
-            <div class="after-click-info" *ngIf="showFillShedule">
-                <app-each-day-shedule>
-                    <h4 class="row justify-content-center title mt-4">Понеділок</h4>
-                    <div class="mt-3 row justify-content-center time">8:30-9:50</div>
-                    <p class="card-title mb-0">1</p>                    
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>                    
-                </app-each-day-shedule>
-                <app-each-day-shedule>
-                    <div class="mt-3 row justify-content-center time">10:10-11:30</div>
-                    <p class="card-title mb-0">2</p>
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>
-                </app-each-day-shedule>
-                <app-each-day-shedule *ngIf="false">
-
-                    <div class="mt-3 row justify-content-center time">11:50-13:10</div>
-                    <p class="card-title mb-0">3</p>
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>
-                </app-each-day-shedule>
-                <app-each-day-shedule>
- 
-                    <div class="mt-3 row justify-content-center time">13.30-14:50</div>
-                    <p class="card-title mb-0">4</p>
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>
-                </app-each-day-shedule>
-                <app-each-day-shedule>
-
-                    <div class="mt-3 row justify-content-center time">15:05-16:25</div>
-                    <p class="card-title mb-0">5</p>
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>
-                </app-each-day-shedule>
-                <app-each-day-shedule>
-
-                    <div class="mt-3 row justify-content-center time">16:40-18:00</div>
-                    <p class="card-title mb-0">6</p>
-                    <h5 class = 'lesson mt-0 mb-2'>Функціональний аналіз</h5>
-                    <p class = 'audit mb-1'>(ауд. 146)</p>   
-                    <p class = 'teacher mb-1'>Викладач</p>
-                </app-each-day-shedule>
-                <app-each-day-shedule>
-                    <h4 class="row justify-content-center title mt-4">Понеділок</h4>
-                </app-each-day-shedule>
+            <div *ngIf="dataread">
+                <h4 class="row justify-content-center title mt-4" *ngIf="showFillShedule">Понеділок</h4>
+                <div *ngIf="dataread && currentShedule.Monday && currentShedule.Monday.length; else mblock">
+                    <div class="after-click-info" *ngIf="showFillShedule" >
+                        <div *ngFor="let monday of currentShedule.Monday" >
+                            <app-each-day-shedule >
+                                <div class="mt-3 row justify-content-center time">{{monday.lesson_time}}</div>
+                                <p class="card-title mb-0">{{monday.lesson_number}}</p>                    
+                                <h5 class = 'lesson mt-0 mb-2'>ГЙЕ ПОРНО ОКЕЙ НОГА ЖОПА</h5>    
+                                <p class="teacher mb-1">{{monday.lesson_description}}</p>                                                
+                            </app-each-day-shedule>
+                            
+                        </div>
+                    </div>
+                </div>
+                <ng-template #mblock>
+                    <app-each-day-shedule>
+                        <h5 class = 'lesson mt-0 mb-2'>ЗАНЯТЬ НЕ ЗНАЙДЕНО</h5>
+                    </app-each-day-shedule>
+                </ng-template>
             </div>
             
-            <!-- <div *ngFor="let day of DayOfTheWeek">
-                <div>
-                    {{ day }}
-                </div>
-                <div *ngFor="let time of lessonsTime">
-                    <div>
-                        {{ time }}
-                    </div>
-                    <app-each-day-shedule>
 
-                    </app-each-day-shedule>
+                <div class="card mt-5 empty" *ngIf="showEmptyShedule">
+                    <div class="card-body">
+                        <div class="card-title week-day">
+                            Вівторок
+                        </div>                 
+                    </div>
                 </div>
-            </div> -->
+                <div *ngIf="dataread">
+                    <h4 class="row justify-content-center title mt-4" *ngIf="showFillShedule">Вівторок</h4>
+                    <div *ngIf="dataread && currentShedule.Tuesday && currentShedule.Tuesday.length; else tublock">
+                        <div class="after-click-info" *ngIf="showFillShedule" >
+                            <div *ngFor="let tuesday of currentShedule.Tuesday" >
+                                <app-each-day-shedule >
+                                    <div class="mt-3 row justify-content-center time">{{tuesday.lesson_time}}</div>
+                                    <p class="card-title mb-0">{{tuesday.lesson_number}}</p>                    
+                                    <h5 class = 'lesson mt-0 mb-2'>{{tuesday.lesson_description}}</h5>
+                                                        
+                                </app-each-day-shedule>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <ng-template #tublock>
+                        <app-each-day-shedule>
+                            <h5 class = 'lesson mt-0 mb-2'>ЗАНЯТЬ НЕ ЗНАЙДЕНО</h5>
+                        </app-each-day-shedule>
+                    </ng-template>
+                </div>
 
-            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
-                <div class="card-body">
-                    <div class="card-title week-day">
-                        Вівторок
+                
+                    <div class="card mt-5 empty" *ngIf="showEmptyShedule">
+                        <div class="card-body">
+                            <div class="card-title week-day">
+                                Середа
+                            </div>                 
+                        </div>
                     </div>
-                  
-                </div>
-            </div>
+                    <div *ngIf="dataread">
+                        <h4 class="row justify-content-center title mt-4" *ngIf="showFillShedule">Середа</h4>
+                        <div *ngIf="dataread && currentShedule.Wednesday && currentShedule.Wednesday.length; else wblock">
+                            <div class="after-click-info" *ngIf="showFillShedule" >
+                                <div *ngFor="let wensday of currentShedule.Wednesday" >
+                                    <app-each-day-shedule >
+                                        <div class="mt-3 row justify-content-center time">{{wensday.lesson_time}}</div>
+                                        <p class="card-title mb-0">{{wensday.lesson_number}}</p>                    
+                                        <h5 class = 'lesson mt-0 mb-2'>{{wensday.lesson_description}}</h5>
+                                                           
+                                    </app-each-day-shedule>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <ng-template #wblock>
+                            <app-each-day-shedule>
+                                <h5 class = 'lesson mt-0 mb-2'>ЗАНЯТЬ НЕ ЗНАЙДЕНО</h5>
+                            </app-each-day-shedule>
+                        </ng-template>
+                    </div>
+    
 
-            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
-                <div class="card-body">
-                    <div class="card-title week-day">
-                        Середа
-                    </div>
-                  
-                </div>
-            </div>
-            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
-                <div class="card-body">
-                    <div class="card-title week-day">
-                        Четверг
-                    </div>
-                  
-                </div>
-            </div>
 
-            <div class="card mt-3 empty" *ngIf="showEmptyShedule">
-                <div class="card-body">
-                    <div class="card-title week-day">
-                        П'ятниця
+                    <div class="card mt-5 empty" *ngIf="showEmptyShedule">
+                        <div class="card-body">
+                            <div class="card-title week-day">
+                                Четверг
+                            </div>                 
+                        </div>
                     </div>
-                  
-                </div>
+                    <div *ngIf="dataread">
+                        <h4 class="row justify-content-center title mt-4" *ngIf="showFillShedule">Четверг</h4>
+                        <div *ngIf="dataread && currentShedule.Thursday && currentShedule.Thursday.length; else tublock">
+                            <div class="after-click-info" *ngIf="showFillShedule" >
+                                <div *ngFor="let thursday of currentShedule.Thursday" >
+                                    <app-each-day-shedule >
+                                        <div class="mt-3 row justify-content-center time">{{thursday.lesson_time}}</div>
+                                        <p class="card-title mb-0">{{thursday.lesson_number}}</p>                    
+                                        <h5 class = 'lesson mt-0 mb-2'>{{thursday.lesson_description}}</h5>
+                                                           
+                                    </app-each-day-shedule>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <ng-template #tublock>
+                            <app-each-day-shedule>
+                                <h5 class = 'lesson mt-0 mb-2'>ЗАНЯТЬ НЕ ЗНАЙДЕНО</h5>
+                            </app-each-day-shedule>
+                        </ng-template>
+                    </div>
+
+
+                    <div class="card mt-5 empty" *ngIf="showEmptyShedule">
+                        <div class="card-body">
+                            <div class="card-title week-day">
+                                П'ятниця
+                            </div>                 
+                        </div>
+                    </div>
+                    <div *ngIf="dataread">
+                        <h4 class="row justify-content-center title mt-4" *ngIf="showFillShedule">П'ятниця</h4>
+                        <div *ngIf="dataread && currentShedule.Friday && currentShedule.Friday.length; else tublock">
+                            <div class="after-click-info" *ngIf="showFillShedule" >
+                                <div *ngFor="let friday of currentShedule.Friday" >
+                                    <app-each-day-shedule >
+                                        <div class="mt-3 row justify-content-center time">{{friday.lesson_time}}</div>
+                                        <p class="card-title mb-0">{{friday.lesson_number}}</p>                    
+                                        <h5 class = 'lesson mt-0 mb-2'>{{friday.lesson_description}}</h5>
+                                                        
+                                    </app-each-day-shedule>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <ng-template #tublock>
+                            <app-each-day-shedule>
+                                <h5 class = 'lesson mt-0 mb-2'>ЗАНЯТЬ НЕ ЗНАЙДЕНО</h5>
+                            </app-each-day-shedule>
+                        </ng-template>
+                    </div>
+            
             </div>
-        </div>
-  </div>
+    </div>
 

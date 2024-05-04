@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QYaDfgyv6hKUs6wB+httWSoY8h7ak70PGkldDEAcjVI=",
+  "Hash": "l/cJX27vBBeshbm6Dkd+yVKoAwkpvYfrIJBpzIakjl8=",
   "Source": "MyLNU",
   "BasePath": "_content/MyLNU",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MyLNU\\wwwroot",
       "Source": "MyLNU",
-      "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\wwwroot\\",
       "BasePath": "_content/MyLNU",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\wwwroot\\favicon.ico",
       "SourceId": "MyLNU",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\majestic\\source\\repos\\TestGit3\\MyLNY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\wwwroot\\",
       "BasePath": "_content/MyLNU",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

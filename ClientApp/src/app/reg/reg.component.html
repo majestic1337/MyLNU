@@ -14,28 +14,33 @@
                 <h5 class="text-center fw-bold title" style="color: black;">Registration</h5>
                 <p class="text-center subtitle" style="color: black;">Hey, enter your details to registrate your account</p>
 
-                <form action="" style="width: 80%;">
-                    <div class="input-group text-center mb-4">
-                        <label for="formEmail" class="input-group-text"><i class="fa-regular fa-user"></i></label>
-                        <input type="text" class="form-control" id="formEmail"
-                            placeholder="your name">
+                <form action="" style="width: 80%;" [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+                    <div class="input-group text-center">
+                        <label for="formName" class="input-group-text"><i class="fa-regular fa-user"></i></label>
+                        <input type="text" class="form-control" id="formName"
+                            placeholder="your name" formControlName="name">              
                     </div>
-
-                    <div class="input-group text-center mb-4">
+    
+                                                        
+                    <div class="input-group text-center "[ngClass]="{more: reactiveForm.get('email')?.invalid && reactiveForm.get('email')?.touched}">
                         <label for="formEmail" class="input-group-text"><i class="fa-regular fa-envelope"></i></label>
                         <input type="email" class="form-control" id="formEmail"
-                            placeholder="username@gmail.com">
+                            placeholder="username@gmail.com" formControlName="email">
                     </div>
-
+                    <small *ngIf="reactiveForm.get('email')?.invalid && reactiveForm.get('email')?.touched" class="mb-4">*Invalid email</small>
                     
-                    <div class="input-group text-center">
-                        <label for="formEmail" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
-                        <input type="password" class="form-control" id="formEmail" placeholder="password">
+                    <div class="input-group text-center" [ngClass]="{more: reactiveForm.get('password')?.invalid && reactiveForm.get('password')?.touched}">
+                        <label for="formPass" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" class="form-control" id="formPass" placeholder="password" formControlName="password">
                     </div>
+                    <small *ngIf="reactiveForm.get('password')?.invalid && reactiveForm.get('password')?.touched" class="mb-4">*Password must be at least 8 characters long</small> 
                     <p class="align-left reg" style="color: black;">Don`t have account yet?
                         <a style="color: black;cursor:pointer;" class="fw-bold " (click)="Back()">Login now!</a></p>
+                    
+                   
 
-                    <button class="btn signn" style="width: 100%">To Register</button>
+                    <button class="btn signn" type="submit" style="width: 100%"
+                    [disabled]="reactiveForm.invalid">To Register</button>
                 </form>
 
                 <p class="google-apple ">-- Or register in with --</p>
@@ -53,4 +58,69 @@
         </div>
     </div>
 </body>
+
+<!-- <body style="background-color: #4F709C !important;">
+
+    <div class="container main" style="background-color: #ffff;">
+        <button class="back disapired" style="border: none; background-color: #ffff"><i class="fa-solid fa-arrow-left"
+               (click)="Back()" ></i></button>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 order-md-last lol">
+                <button class="backk" style="border: none; background-color: #ffff"><i class="fa-solid fa-arrow-left"
+                (click)="Back()" ></i></button>
+                <img src="/assets/reg.png" alt="" class="img-fluid logo"
+                    style="object-fit: cover;">
+            </div>
+            <div class="col-md-6 col-sm-12 order-md-first form-text lol-kek">
+                <h5 class="text-center fw-bold title" style="color: black;">Registration</h5>
+                <p class="text-center subtitle" style="color: black;">Hey, enter your details to registrate your account</p>
+
+                <form action="" style="width: 80%;" (ngSubmit)="onSubmit()" #regForm="ngForm" [formGroup]="reactiveForm">
+                    <div class="input-group text-center mb-4">
+                        <label for="formName" class="input-group-text"><i class="fa-regular fa-user"></i></label>
+                        <input type="text" class="form-control" id="formName"
+                            placeholder="your name" name="firstname" [(ngModel)]="name" required #fname="ngModel">
+                         
+                    </div>
+                     
+                                                        
+                    <div class="input-group text-center mb-4">
+                        <label for="formEmail" class="input-group-text"><i class="fa-regular fa-envelope"></i></label>
+                        <input type="email" class="form-control" id="formEmail"
+                            placeholder="username@gmail.com"  name="email" [(ngModel)]="email" required #em="ngModel" email>
+                    </div>
+
+                    
+                    <div class="input-group text-center">
+                        <label for="formPass" class="input-group-text"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" class="form-control" id="formPass" placeholder="password" name="password" [(ngModel)]="password" required
+                        #pass="ngModel">
+                    </div>
+                    <div *ngIf="(fname.invalid && fname.touched) || (em.invalid && em.touched) || (pass.invalid && pass.touched)">
+                        <small>you enter something wrong!</small>
+                    </div> 
+                    <p class="align-left reg" style="color: black;">Don`t have account yet?
+                        <a style="color: black;cursor:pointer;" class="fw-bold " (click)="Back()">Login now!</a></p>
+                    
+                   
+
+                    <button class="btn signn" type="submit" style="width: 100%"
+                    [disabled]='!regForm.valid'>To Register</button>
+                </form>
+
+                <p class="google-apple ">-- Or register in with --</p>
+                <div class="other-log">
+                    <button class="btn mr-2">
+                        <i class="fa-brands fa-google"></i>
+                        Google
+                    </button>
+                    <button class="btn fw-bold">
+                        <i class="fa-brands fa-apple "></i>
+                        Apple ID
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> -->
 

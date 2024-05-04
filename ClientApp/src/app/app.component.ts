@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,22 +11,17 @@ export class AppComponent {
   gotoreg:boolean = false;
   displayNav: boolean = true;
 
-  handleToggle(value: boolean){
-    console.log(this.isToggled)
-    this.isToggled = value;
-    console.log(this.isToggled)
+
+  handleToggle(value: boolean){  
+   this.isToggled = value;  
   }
 
-  GoToRegPage(value: boolean){
-    console.log(this.gotoreg)
+  GoToRegPage(value: boolean){   
     this.gotoreg = value
-    console.log(this.gotoreg)
   }
 
-  HideBar(value: boolean){
+  HideBar(value: boolean){  
     this.displayNav = value;
   }
-  // ShowAgaon(value:boolean){
-  //   this.isToggled = value
-  // }
+ 
 }

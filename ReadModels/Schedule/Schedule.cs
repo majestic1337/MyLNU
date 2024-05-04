@@ -17,29 +17,8 @@ namespace MyLNU.ReadModels
         public string? LessonName { get; set; }
         [JsonProperty("lesson_time")]
         public string? LessonTime { get; set; }
-        [JsonProperty("half")]
-        public string? Half { get; set; }
-        [JsonProperty("teacher")]
-        public string? TeacherName { get; set; }
-        [JsonProperty("teachers_add")]
-        public string? TeachersAdd { get; set; }
-        [JsonProperty("room")]
-        public string? Room { get; set; }
-        [JsonProperty("group")]
-        public string? Group { get; set; }
-        [JsonProperty("title")]
-        public string? SubjectName { get; set; }
-        [JsonProperty("type")]
-        public string? Type { get; set; }
-        [JsonProperty("replacement")]
-        public string? Replacement { get; set; }
-        [JsonProperty("reservation")]
-        public string? Reservation { get; set; }
-        [JsonProperty("online")]
-        public string? Online { get; set; }
-        [JsonProperty("comment4link")]
-        public string? Comment4link { get; set; }
-        [JsonProperty("link")]
-        public string? Link { get; set; }
+
+        [JsonProperty("lesson_description")]
+        public string LessonDescription { get; set; }
     }
 }

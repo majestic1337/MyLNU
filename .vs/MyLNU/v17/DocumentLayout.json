@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\readmodels\\schedule\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:readmodels\\schedule\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\readmodels\\schedule\\scheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:readmodels\\schedule\\scheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\readmodels\\filteredschedule\\filteredschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:readmodels\\filteredschedule\\filteredschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\mylnu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:mylnu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\clientapp\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:clientapp\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\readmodels\\filteredschedule\\newschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:readmodels\\filteredschedule\\newschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|c:\\users\\user\\desktop\\programiring\\mylny\\mylnu\\readmodels\\news\\articleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660658AB-82F1-4256-A084-868004B4F846}|MyLNU.csproj|solutionrelative:readmodels\\news\\articleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\Schedule\\Schedule.cs",
+              "RelativeDocumentMoniker": "ReadModels\\Schedule\\Schedule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\Schedule\\Schedule.cs",
+              "RelativeToolTip": "ReadModels\\Schedule\\Schedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:51:45.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyLNU.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\MyLNU.csproj",
+              "RelativeDocumentMoniker": "MyLNU.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\MyLNU.csproj",
+              "RelativeToolTip": "MyLNU.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-23T15:05:33.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "proxy.conf.js",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ClientApp\\proxy.conf.js",
+              "RelativeDocumentMoniker": "ClientApp\\proxy.conf.js",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ClientApp\\proxy.conf.js",
+              "RelativeToolTip": "ClientApp\\proxy.conf.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T15:05:33.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleInfo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\News\\ArticleInfo.cs",
+              "RelativeDocumentMoniker": "ReadModels\\News\\ArticleInfo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\News\\ArticleInfo.cs",
+              "RelativeToolTip": "ReadModels\\News\\ArticleInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\FilteredSchedule\\NewSchedule.cs",
+              "RelativeDocumentMoniker": "ReadModels\\FilteredSchedule\\NewSchedule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\FilteredSchedule\\NewSchedule.cs",
+              "RelativeToolTip": "ReadModels\\FilteredSchedule\\NewSchedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilteredSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\FilteredSchedule\\FilteredSchedule.cs",
+              "RelativeDocumentMoniker": "ReadModels\\FilteredSchedule\\FilteredSchedule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\FilteredSchedule\\FilteredSchedule.cs",
+              "RelativeToolTip": "ReadModels\\FilteredSchedule\\FilteredSchedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "Controllers\\ScheduleController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvykAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScheduleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\Schedule\\ScheduleResponse.cs",
+              "RelativeDocumentMoniker": "ReadModels\\Schedule\\ScheduleResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\ReadModels\\Schedule\\ScheduleResponse.cs",
+              "RelativeToolTip": "ReadModels\\Schedule\\ScheduleResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\programiring\\MyLNY\\MyLNU\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:05:33.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

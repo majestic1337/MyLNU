@@ -1,7 +1,7 @@
 export interface News{
-    siteLink: string;
-    photoLink: string;
-    postTitle: string;
-    postExcerpt:string;
-    postDate: string;
+    SiteLink: string;
+    PhotoLink: string;
+    PostTitle: string;
+    PostExcerpt:string;
+    PostDate: string;
 }

@@ -175,3 +175,25 @@ input::placeholder{
 .back{
     font-size: 20px;
 }
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red; /* Начальное значение */
+    transition: border 0.5s ease-in-out; /* Применяем плавную анимацию для border */
+}
+
+input.ng-invalid.ng-touched:focus {
+    border: 1px solid #213555 !important; /* Красная граница при фокусировке */
+}
+small{
+    color: red;
+    font-weight: 600;
+}
+.input-group{
+    margin-bottom: 1.5rem;
+}
+.more{
+    margin-bottom: 0.2rem !important;
+}
+.warning{
+    border: 1px solid red !important;
+}
